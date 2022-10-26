@@ -1,0 +1,77 @@
+body{
+    width: 100vw;
+    display: flex;
+    margin: 0;
+    background: rgb(227, 215, 215);
+    flex-direction: row;
+    align-items: center;
+    font-family: Roboto;
+
+}
+.sectcalendar{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendar{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 50px;
+    border-radius: 40px ;
+    font-size: 40px;
+
+}
+
+.day{
+    width: 70%;
+    height: 150px;
+    border-radius: 40px 40px 0 0;
+    border: solid rgba(128, 128, 128, 0.825);
+    border-width: 6px 6px 0px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+    width: 70%;
+    height: 200px;
+    background-color: whitesmoke;
+    border: solid rgba(128, 128, 128, 0.825);
+    border-width: 0px 6px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.year{
+    width: 70%;
+    height: 150px;
+    border-radius: 0 0 40px 40px;
+    background: red;
+    border: solid rgba(128, 128, 128, 0.825);
+    border-width: 0px 6px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counthours{
+    width: 50vw;
+    height: 100vh;
+}
+.hours{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    font-size: 100px;
+    text-align: center;
+    
+}

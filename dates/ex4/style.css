@@ -23,6 +23,7 @@ body{
     margin-right: 50px;
     border-radius: 40px ;
     font-size: 40px;
+    font-weight: 800;
 
 }
 
@@ -36,6 +37,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: whitesmoke;
 }
 
 .date{
@@ -51,6 +53,13 @@ body{
 
 }
 
+.pday{
+    margin-bottom: 0;
+}
+
+.month{
+    margin-top: 0;
+}
 .year{
     width: 70%;
     height: 150px;
@@ -61,13 +70,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: whitesmoke;
 }
 
 .counthours{
     width: 50vw;
     height: 100vh;
 }
-.hours{
+#hours{
     width: 500px;
     height: 100px;
     margin: auto;

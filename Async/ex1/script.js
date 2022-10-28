@@ -3,7 +3,7 @@ const button = document.querySelector(".becode");
 button.addEventListener("click", () => {
   fetch("./becode.json")
     .then((response) => response.json())
-    .then((text) => {
+    .then((json) => {
       const list = document.createElement("ul");
       f = document.querySelector(".fetch");
       button.style.display = "none";
@@ -11,9 +11,9 @@ button.addEventListener("click", () => {
 
       f.appendChild(list);
 
-    for(let i = 0; i < text.length; i++){
+    for(let i = 0; i < json.length; i++){
         elementlist=document.createElement("li"); 
-        elementlist.textContent = text[i];
+        elementlist.textContent = json[i];
         list.append(elementlist);
     }
     });
